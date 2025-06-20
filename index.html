@@ -106,11 +106,11 @@
   </div>
   <!-- SECTION Projects -->
   <div class="container-fluid">
-    <div id="projects" class="row mb-5 justify-content-center rounded projects-btn-wrapper align-items-center" onclick="">
-      <div class="col-6 text-center rounded sans-font fs-4 projects-btn-active">
+    <div id="projects" class="row mb-5 justify-content-center rounded projects-btn-wrapper align-items-center" onclick="app.viewController.changeProjectView()">
+      <div id="featured" class="col-6 text-center rounded sans-font projects-btn-active">
         Featured Projects
       </div>
-      <div class="col-6 text-center rounded sans-font fs-4">
+      <div id="in-development" class="col-6 text-center rounded sans-font">
         In Development
       </div>
     </div>
